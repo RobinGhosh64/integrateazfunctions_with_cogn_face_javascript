@@ -14,6 +14,7 @@ Cheers!
 
 Adding my Postman payload here for testing. I do have a version of this project that can stack up multiple requests if your queries are long consuming. In that situation you can come back later and query your response using a jobid.
 
+Use this payload via curl or POSTMAN. Make sure Content-Type is application/json
 {
     "imageUrl":"https://raw.githubusercontent.com/Azure-Samples/cognitive-services-sample-data-files/master/ComputerVision/Images/faces.jpg",
     "transaction" : {
@@ -23,7 +24,6 @@ Adding my Postman payload here for testing. I do have a version of this project 
         "amount": "45.46"
     }
  }
-Also, added screenshots for my postman session
 
 robin.ghosh@microsoft.com   # Robin S Ghosh
 
